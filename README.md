@@ -1,5 +1,36 @@
 # Pacotalk
 
+---
+
+## Develop
+
+### Angular CLI global install
+```
+$ npm install -g @angular/cli
+```
+
+### Create an Angular Project
+```
+$ ng new pacotalk --routing
+$ cd pacotalk
+```
+
+### Add Angular material, CDK and HammerJS 
+```
+$ ng add @angular/material @angular/cdk
+$ npm install --save hammerjs
+```
+
+### Add theme
+
+for `style.scss`
+
+```
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+```
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
 ## Development server
