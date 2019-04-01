@@ -1,5 +1,6 @@
 version: "3"
-app:
+services:
+  app:
     build: .
     ports:
         - '4200:4200'
