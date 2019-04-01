@@ -30,6 +30,23 @@ $ npm run start
 
 ### docker
 
+#### イメージのビルド
+```
+$ docker build -t pacotalk .
+```
+
+### 起動
+```
+$ docker run -p 4200:4200 -t pacotalk 
+```
+
+### ターミナルを起動
+```
+$ docker run -p 4200:4200 -it pacotalk ash
+```
+
+### docker-compose
+
 #### サービスの開始
 ```
 $ docker-compose up --build
