@@ -1,0 +1,10 @@
+app:
+    build: .
+    ports:
+        - '8089:4200'
+        - '49153:49153'
+    volumes:
+        - .:/app/
+    environment:
+        - NODE_ENV=dev
+    command: ash -c "yarn start"
