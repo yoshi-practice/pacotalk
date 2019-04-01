@@ -13,4 +13,4 @@ RUN set -x && \
 
 EXPOSE 4200 49153
 
-CMD ["yarn","start"]
+CMD ["yarn", "docker"]
