@@ -7,8 +7,7 @@ WORKDIR ${project_dir}
 
 RUN set -x && \
     apk upgrade --no-cache && \
-    yarn global add @angular/cli \
-                    yarn && \
+    yarn global add @angular/cli && \
     yarn install
 
 EXPOSE 4200 49153
