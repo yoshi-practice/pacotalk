@@ -96,3 +96,16 @@ export class MaterialModule {}
 $ yarn add @angular/flex-layout rxjs-compat
 ```
 を実行し、`flex-layout`と`rxjs-compat`をインストールします。
+
+## インポートと構成
+`src/app/app.module.ts`で、`FlexLayoutModule`をインポートします。
+
+```
+import {FlexLayoutModule} from '@angular/flex-layout';
+```
+
+`@NgModule` でも同様にインポートします。
+
+```
+FlexLayoutModule
+```
