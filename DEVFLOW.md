@@ -3,7 +3,7 @@
 
 ## Angular CLIをグローバルインストール
 ```
-$ npm install -g @angular/cli
+$ yarn add -g @angular/cli
 ```
 
 ## Angular Projectを作成
@@ -16,7 +16,7 @@ $ cd pacotalk
 ```
 $ ng add @angular/material \
          @angular/cdk
-$ npm install --save hammerjs
+$ yarn add --save hammerjs
 ```
 
 ## Themeを追加
@@ -87,8 +87,12 @@ export class MaterialModule {}
 ```
 
 これで、`MatSidenavModule`が使えるようになりました。
-コンポーネントを反映させるために、`./src/app/app.component.html`）を以下の通り編集します。
+`./src/app/app.component.html`）に作成したいコンポーネントを作ってみてください。
+（このままではまだ動作しません。）
+
+## Angular Material、Flexboxの設定
 
 ```
-
+$ yarn add @angular/flex-layout rxjs-compat
 ```
+を実行し、`flex-layout`と`rxjs-compat`をインストールします。
