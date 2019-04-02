@@ -56,3 +56,39 @@ import { MaterialModule } from './material.module';
 MaterialModule,
 ```
 
+## ナビゲーションバーを追加する
+`/src/app/material.module.ts` 以下のように変更します。
+
+```
+import { NgModule } from '@angular/core';
+
+import {
+  MatSidenavModule,
+  MatToolbarModule,
+  MatIconModule,
+  MatListModule,
+} from '@angular/material';
+
+@NgModule({
+  imports: [
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule,
+  ],
+  exports: [
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatListModule,
+  ]
+})
+export class MaterialModule {}
+```
+
+これで、`MatSidenavModule`が使えるようになりました。
+コンポーネントを反映させるために、`./src/app/app.component.html`）を以下の通り編集します。
+
+```
+
+```
