@@ -10,4 +10,3 @@ services:
         - /app/node_modules/
     environment:
         - NODE_ENV=dev
-    command: ash -c "yarn install && yarn docker"

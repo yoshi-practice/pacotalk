@@ -13,19 +13,19 @@ $ cd {PROJECT_NAME}
 
 ### ローカル
 
-#### npm packageのインストール
+#### yarn packageのインストール
 ```
-$ npm install
+$ yarn install
 ```
 
 #### Angular CLIのグローバルインストール
 ```
-$ npm install -g @angular/cli
+$ yarn grobal add @angular/cli
 ```
 
 #### 起動
 ```
-$ npm run start
+$ yarn start
 ```
 
 ### docker
