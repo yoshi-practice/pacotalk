@@ -9,12 +9,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
 import { environment } from './../environments/environment';
 import { SigninComponent } from './signin/signin.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SigninComponent
+    SigninComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
